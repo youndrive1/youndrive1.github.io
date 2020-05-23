@@ -1,0 +1,86 @@
+body {
+    background-color: #212121   !important;
+    font-family: 'Noto Sans KR', sans-serif !important;
+    color: #ffffff  !important;
+    background: linear-gradient( to bottom, #212121 95%, #000000 100%);
+}
+
+header {
+    height: 20%;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+main {
+    height: 70%;
+}
+
+
+footer {
+    text-align: center;
+    height: 20%;
+    padding: 5rem 0 1rem 0;
+}
+
+/* header */
+.banner {
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem auto;
+}
+
+/* main */
+.quote.title {
+    color: #f19e21;
+
+}
+.title {
+    font-size: 2rem;
+    text-align: center;
+    margin: 5rem 0 3rem 0;
+}
+
+.col.card {
+    background-color: transparent   !important;
+    padding: 0;
+    margin: 1rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+}
+
+.card-body {
+    color: #7a7d84;
+}
+
+.name {
+    font-size: 1.5rem;
+}
+
+.description {
+    font-size: 0.7rem;
+}
+
+img.logo {
+    width: 3rem;
+    height: auto;
+    margin: 0 1rem 0 1rem;
+    
+}
+
+.contacts {
+    text-align: center;
+    
+}
+
+/* footer */
+footer > p {
+    color: #7a7d84;
+    font-weight: 100;
+    font-size: 0.7rem;
+    margin: 0;
+}
+
