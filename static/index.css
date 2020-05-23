@@ -1,5 +1,5 @@
 body {
-    background-color: #212121   !important;
+    background-color: #000000   !important;
     font-family: 'Noto Sans KR', sans-serif !important;
     color: #ffffff  !important;
     background: linear-gradient( to bottom, #212121 95%, #000000 100%);
@@ -40,34 +40,41 @@ footer {
     margin: 5rem 0 3rem 0;
 }
 
-.col.card {
-    background-color: transparent   !important;
-    padding: 0;
+table.info {
+    width: 100%;
+    
+}
+
+.col-sm {
+    background-color: #000000;
     margin: 1rem;
+    border-radius: 5px;
 }
 
 .card-img-top {
-    width: 100%;
+    width: 50%;
     height: auto;
     background-color: #000000;
 }
 
 .card-body {
+    padding: 0.5rem 0 1rem 0   !important;
     color: #7a7d84;
+    text-align: center;
 }
 
 .name {
-    font-size: 1.5rem;
+    font-size: 2vw;
 }
 
 .description {
-    font-size: 0.7rem;
+    font-size: 1vw;
 }
 
 img.logo {
     width: 3rem;
     height: auto;
-    margin: 0 1rem 0 1rem;
+    margin: 0 1.9vw 0 1.9vw;
     
 }
 
@@ -84,3 +91,20 @@ footer > p {
     margin: 0;
 }
 
+
+/* for mobile */
+
+@media screen and (max-width: 600px) {
+    .row {
+        padding: 0 10vw 0 10vw;
+    }
+
+    .name {
+        font-size: 6vw;
+        font-weight: 700;
+    }
+
+    .description {
+        font-size: 3vw;
+    }
+  }
