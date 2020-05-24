@@ -80,8 +80,13 @@ img.logo {
 
 .contacts {
     text-align: center;
-    
 }
+
+a:hover {
+    text-decoration: none   !important;
+    box-shadow: #f19e21;
+  }
+
 
 /* footer */
 footer > p {
@@ -92,8 +97,10 @@ footer > p {
 }
 
 
-/* for mobile */
 
+
+
+/* for mobile */
 @media screen and (max-width: 600px) {
     .row {
         padding: 0 10vw 0 10vw;

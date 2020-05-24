@@ -1,7 +1,7 @@
 # ds-likelion-2020.github.io
 
 ## 덕성여대 스터디: github page 배포하기
-
+## 만든사람 이은정 (덕성멋사 8기)
 
 
 <img src='static/likelionds.png' alt='사자머리' width='200px' height='200px'></img>
@@ -13,7 +13,7 @@
 
         $   git clone https://github.com/ds-likelion-2020/ds-likelion-2020.github.io.git
         
-            #   어쩌구저쩌구 수정 수정 수정
+            #   어쩌구저쩌구 수정 수정 수정 한다음
 
         $   git add .
 
